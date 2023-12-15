@@ -1,0 +1,57 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body{
+    background-color: rgb(55, 52, 52);
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.avif');
+}
+h1{
+    color: black;
+    font-size: 22px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    margin-top: 120px;
+    padding: 10px;
+
+}
+#container p{
+    font-size: 140px;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+#btn{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+
+}
+.btn{
+     font-size: 20px;
+    padding: 10px;
+    width: 120px;
+    border: 2px solid white;
+    background-color: rgb(20, 17, 17);
+    color: white;
+    
+    border-radius: 14px;
+    margin: 25px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(33, 26, 26);
+}
